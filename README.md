@@ -11,7 +11,7 @@ npm install http-reasons --save-dev;
 ```javascript
 var httpReasons = require('http-reasons');
 
-console.log(mimeFormat.lookup(122));
+console.log(httpReasons.lookup(122));
 // outputs
 // {
 //   "name": "Request-URI too long",

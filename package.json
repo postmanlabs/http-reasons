@@ -17,7 +17,6 @@
     "response-code",
     "reason"
   ],
-  "author": "Shamasis Bhattacharya <mail@shamasis.net> (=)",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/postmanlabs/http-reasons/issues"

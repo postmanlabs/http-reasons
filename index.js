@@ -10,6 +10,9 @@ module.exports = {
      * @returns {Object} - {name:String, detail:String}
      */
     lookup: function httpCodeLookup (code) {
-        return db[code] || {};
+        return (code = db[code]) ? {
+            name: code.name,
+            detail: code.detail
+        } : {};
     }
 };
